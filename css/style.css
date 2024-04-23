@@ -14,7 +14,7 @@
   }
 img{ animation:  fadeIn2 4s;}
 span{
-    font-family: "Montserrat", sans-serif;    color: #ca784c;
+    font-family: "Montserrat", sans-serif;    color: #87b4c6;
 }
 body{
     margin-top: 0px, 0px, 0px, 0px;
@@ -24,10 +24,10 @@ body{
 
 }
 .white{
-    color: #ca784c62 !important;
+    color: #87b4c6 !important;
 }
 .bold{
-    color: #ca784c !important;
+    color: #fcc461 !important;
 }
 .background-color{
     background: 
