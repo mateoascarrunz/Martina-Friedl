@@ -307,3 +307,10 @@ position: static !important;
     font-size: 22px;
 }
   }
+  @media(max-width:500px){
+    .title2{
+    width: 300px;}
+ .logo{
+  width: 100%;
+ }
+  }
