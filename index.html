@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#004bfa">
+    <meta name="msapplication-TileColor" content="#004bfa">
+    <meta name="theme-color" content="#ffffff">
+    <title>Martina & Friedl</title>
+    <style>
+        .hero {
+            display: none; /* Initially hide the hero section */
+        }
+    </style>
+    <script>
+           function playAudio() {
+            var audio = document.getElementById('audio');
+            audio.play();
+        }
+        function showHero() {
+            var hero = document.querySelector('.hero');
+            hero.style.display = 'flex'; // Display the hero section
+            playAudio()
+            var button = document.querySelector('.button');
+            var lottie = document.querySelector('.logo');
+            lottie.play();
+            button.style.display = 'none';
+        }
+
+    </script>
+</head>
+<body>
+    <div class="background-color"></div>
+    <div class="button">
+        <span class="title2 white">Conviértete en la Estrella de <br> Nuestra Canción</span>
+        <br>
+        <span class="subtitle2 white">Estas Invitado:</span>
+        <br>
+        <div class="body">
+    <div class="container" onclick="showHero()">
+        <i class="fas fa-play"></i>
+    </div>
+      </div>  
+    <br>
+    <span class="minitext">Activa el audio ;)</span>
+</div>
+    <div class="hero">
+        <lottie-player class="logo" src="newcd.json" background="transparent" speed="1" ></lottie-player>
+        <div class="text_container">
+            <!-- <span class="title"> Martina & Friedl </span>
+            <br><br><br> -->
+            <span class="paragraph">Save the Date</span>
+            <span class="subtitle">24/05/25</span>
+            <span class="paragraph">Tarija, Bolivia</span>
+            <span class="paragraph3">Stay Tuned</span>
+          
+        </div>
+        <audio id="audio" preload="auto" >
+            <source src="friedl_audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>

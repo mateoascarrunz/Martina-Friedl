@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');  .title,.subtitle,.paragraph,h2,p{ animation: fadeIn 10s; }
+.paragraph3{
+    animation: fadeIn 13s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    66% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fadeIn2{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+img{ animation:  fadeIn2 4s;}
+span{
+    font-family: "Montserrat", sans-serif;    color: #ca784c;
+}
+body{
+    margin-top: 0px, 0px, 0px, 0px;
+    margin: 0px;
+    position: relative;
+    height: 100vh;
+
+}
+.white{
+    color: #ca784c62 !important;
+}
+.bold{
+    color: #ca784c !important;
+}
+.background-color{
+    background: 
+    linear-gradient(to bottom, #fff5e9, transparent), 
+    url(https://grainy-gradients.vercel.app/noise.svg);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+top: 0px;
+z-index: 10;
+}
+.hero{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+img{
+    position: absolute;
+    display: block;
+    margin-left: auto !important; 
+    margin-right: auto !important; 
+    left: 0 !important; 
+    right: 0 !important; 
+    text-align: center;
+    width: 550px;
+    margin-top: 50px;
+
+
+
+}
+.minitext{
+    animation: fadeIn 3s; 
+}
+.title{
+    font-size: 80px;
+}
+.title2{
+    font-size: 60px;
+    animation: fadeIn 1.5s; 
+    width: 750px;
+}
+.subtitle{
+    font-size: 50px;
+}
+.subtitle2{
+    font-size: 40px;
+    animation: fadeIn 1.5s; 
+}
+.paragraph3{
+    font-size: 28px;
+    z-index: 12;
+    position: relative;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.paragraph{
+    font-size: 28px;
+}
+.paragraph2{
+    font-size: 18px;
+}
+
+.logo{
+
+    width: 50%; 
+    z-index: 11;
+    height: fit-content;
+
+}
+.button{
+    z-index: 99;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+audio{
+    z-index: 12;
+}
+.text_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+
+
+}
+@media (max-width: 900px){
+.logo{
+    width: 75%; 
+
+    margin-top: 30px;
+}
+
+}
+
+
+
+
+.button-74 {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all ease-in-out 0.3s;
+    animation: fadeIn 3s; 
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .button-745{
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all ease-in-out 0.3s;
+    animation: fadeIn 10s; 
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .button-74:hover {
+    background-color: #fff;
+  }
+  
+  .button-74:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-74 {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }
+
+/* CSS */
+.button-83 {
+  appearance: button;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, #410707, #f8eedb);
+  border: 0 solid #e5e7eb;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #482307;
+  column-gap: 1rem;
+  cursor: pointer;
+  display: flex;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  outline: 2px solid transparent;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  animation: fadeIn 3s; 
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+}
+
+.button-83:active {
+  background-color: #f3f4f6;
+  box-shadow: -1px 2px 5px rgba(81,41,10,0.15),0px 1px 1px rgba(81,41,10,0.15);
+  transform: translateY(0.125rem);
+}
+
+.button-83:focus {
+  box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
+}
+.body{
+    display:grid;
+    place-items:center;
+  }
+.container{
+    display:grid;
+    place-items:center;
+    cursor:pointer;
+    padding:2rem;
+    background:#efeeeb;
+    border-radius:50%;
+    transition:all 0.3s ease-in;
+    /* box-shadow: 10px 10px 10px rgba(0,0,0,0.1),
+      -10px -10px 10px rgba(255,255,255,0.6); */
+      animation: fadeIn 3s; 
+      background-color: #ffffff69;
+  }
+  .container .fas{
+    display:grid;
+    place-items:center;
+    font-size:2rem;
+    color:#42280084;
+  }
+  .container:active{
+    box-shadow: inset 10px 10px 10px rgba(0,0,0,0.1),
+      inset -10px -10px 10px rgba(255,255,255,0.6);
+  }
+  .container:active .fas{
+    color:#422800;
+  }
+
+
+
+
+  @media(max-width:755px){
+body{
+position: static !important;
+
+}
+.hero{
+    margin-top: 0px ;
+}
+.text_container{
+    top: 65%;
+    width: fit-content;
+}
+.subtitle{
+    font-size: 40px;
+}
+.paragraph{
+    font-size: 20px;
+}
+.paragraph3{
+    font-size: 16px;
+}
+.title2{
+    font-size: 30px;
+}
+.subtitle2{
+    font-size: 22px;
+}
+  }
