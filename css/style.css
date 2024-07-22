@@ -26,6 +26,9 @@ body{
     
 
 }
+.strong{
+  font-weight: 700;
+}
 body::before {
   content: "";
   position: absolute;
@@ -54,7 +57,7 @@ body::before {
   width: 100vw;
   position: absolute;
   left: 0px;
-  opacity: 0.7;
+  opacity: 0.5;
 top: 0px;
 z-index: 10;
 }
