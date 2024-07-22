@@ -17,7 +17,7 @@
     <title>Martina & Friedl</title>
     <style>
         .hero {
-            display: none; /* Initially hide the hero section */
+            display: none; 
         }
     </style>
     <script>
@@ -27,7 +27,7 @@
         }
         function showHero() {
             var hero = document.querySelector('.hero');
-            hero.style.display = 'flex'; // Display the hero section
+            hero.style.display = 'flex'; 
             playAudio()
             var button = document.querySelector('.button');
             var lottie = document.querySelector('.logo');
@@ -41,19 +41,21 @@
     <div class="background-color"></div>
     <div class="button">
         <span class="title2 white">Conviértete en la Estrella de <br> Nuestra Canción</span>
-        <br>
+        <br> <br><br>
+        <div class="btn_start">
         <span class="subtitle2 white">Estas Invitado:</span>
-        <br>
+        <br><br>
         <div class="body">
     <div class="container" onclick="showHero()">
         <i class="fas fa-play"></i>
     </div>
+</div>
       </div>  
     <br>
     <span class="minitext">Activa el audio ;)</span>
 </div>
     <div class="hero">
-        <lottie-player class="logo" src="newcd.json" background="transparent" speed="1" ></lottie-player>
+        <lottie-player class="logo" src="friedl cover animation.json" background="transparent" speed="1" ></lottie-player>
         <div class="text_container">
             <!-- <span class="title"> Martina & Friedl </span>
             <br><br><br> -->
@@ -64,7 +66,7 @@
           
         </div>
         <audio id="audio" preload="auto" >
-            <source src="friedl_audio.mp3" type="audio/mpeg">
+            <source src="friedl new audio.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
     </div>
