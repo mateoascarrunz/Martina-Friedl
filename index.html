@@ -34,6 +34,14 @@
             lottie.play();
             button.style.display = 'none';
         }
+        document.addEventListener("visibilitychange", function() {
+            var audio = document.getElementById('audio');
+            if (document.hidden) {
+                audio.pause();
+            } else {
+                audio.play();
+            }
+        });
 
     </script>
 </head>
